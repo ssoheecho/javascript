@@ -1,0 +1,106 @@
+body {
+  font-family: arial;
+}
+
+section {
+  width: 70%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  background-color: #fafafa;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+ul {
+  display: block;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+ul li {
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+
+}
+body ul li span {
+  font-family: arial;
+  font-size: 14px;
+  color: #5a5a5a;
+  text-align: center;
+}
+body ul li img {
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+p strong {
+  color: red;
+}
+
+.highlight {
+  color: green;
+}
+
+.tip {
+    position: absolute;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+}
+
+form input[type=text], form input[type=password], form input[type=number] {
+  width: 50%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  width: 30%;
+  display: block;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+form label {
+  padding: 5px 0;
+  display: block;
+  margin-top: 15px;
+}
+
+form .error {
+  font-size: 80%;
+  color: darkred;
+}
+
+#Output {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 20px 0;
+    background: white;
+}
