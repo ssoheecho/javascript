@@ -18,8 +18,6 @@ window.onload = () => {
 
 addEvent = (imgs) => {
   for (let item of imgs) {
-    console.log(item);
-    console.log(item.title);
     item.addEventListener("click", () => loadGiphy(item.title), false);
     document.body.appendChild(item);
   }
