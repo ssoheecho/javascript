@@ -1,0 +1,106 @@
+body {
+  background-color: #426B55;
+}
+
+#centered {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: auto;
+}
+
+#andy {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  height: 13%;
+}
+
+#april {
+  position: fixed;
+  top: 15%;
+  left: 27%;
+  height: 19%;
+}
+
+#ron {
+  position: fixed;
+  top: 15%;
+  left: 45%;
+}
+
+#tom {
+  position: fixed;
+  top: 17%;
+  left: 65%;
+  height: 12%;
+}
+
+#donna {
+  position: fixed;
+  top: 20%;
+  left: 72%;
+  height: 12%;
+}
+
+#jerry {
+  position: fixed;
+  top: 59%;
+  left: 18%;
+}
+
+#ben {
+  position: fixed;
+  top: 62%;
+  left: 42%;
+}
+
+#leslie {
+  position: fixed;
+  top: 62%;
+  left: 50%;
+  height: 13%;
+}
+
+#ann {
+  position: fixed;
+  top: 62%;
+  left: 66%;
+}
+
+#chris {
+  position: fixed;
+  top: 60%;
+  left: 74%;
+}
+
+.odd:hover {
+  animation: shake1 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake1 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  33% { transform: translate(-1px, -2px) rotate(2deg); }
+  66% { transform: translate(-3px, 0px) rotate(0deg); }
+  99% { transform: translate(3px, 2px) rotate(-2deg); }
+}
+
+.even:hover {
+  animation: shake2 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake2 {
+  0% { transform: translate(3px, 1px) rotate(0deg); }
+  33% { transform: translate(-1px, -1px) rotate(-2deg); }
+  66% { transform: translate(1px, 2px) rotate(0deg); }
+  99% { transform: translate(1px, -2px) rotate(2deg); }
+}
+
+img:hover {
+
+}
